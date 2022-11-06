@@ -70,7 +70,7 @@ ZSH_THEME="geometry/geometry"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nvm node dnf npm zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git nvm node dnf npm zsh-autosuggestions zsh-syntax-highlighting safe-paste)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases

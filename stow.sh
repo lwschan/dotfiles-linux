@@ -10,7 +10,7 @@ stow --verbose --target=$HOME/ssh --dir=dotfiles/.ssh .
 stow --verbose --target=$HOME --dir=dotfiles/git .
 
 # Stow zsh files
-stow --verbose --target=$HOME --dir=dotfiles/zsh .
+stow --verbose --target=$HOME --dir=dotfiles/shell .
 
 # Stow zsh themes
 stow --verbose --target=$HOME/.oh-my-zsh/custom/themes --dir=zsh-themes .
