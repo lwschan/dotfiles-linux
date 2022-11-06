@@ -17,3 +17,7 @@ stow --verbose --target=$HOME/.oh-my-zsh/custom/themes --dir=zsh-themes .
 
 # Stow zsh plugins
 stow --verbose --target=$HOME/.oh-my-zsh/custom/plugins --dir=zsh-plugins .
+
+# Stow jenv
+mkdir $HOME/.jenv
+stow --verbose --target=$HOME/.jenv --dir=utilities jenv
