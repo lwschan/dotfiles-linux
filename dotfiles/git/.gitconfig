@@ -1,0 +1,14 @@
+[user]
+	name = Lewis Chan
+	email = 8966669+lwschan@users.noreply.github.com
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDesK/7/2yijvUNFQUyQeLCTMbQk7VIDpFVwrD503+wr
+[alias]
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+[gpg "ssh"]
+	allowedSignersFile = ~/.ssh/allowed_signers
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = /home/lewis/.ssh/allowed_signers
+[commit]
+	gpgsign = true

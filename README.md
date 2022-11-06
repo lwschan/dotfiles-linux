@@ -1,2 +1,3 @@
 # dotfiles-linux
-My dotfiles for Linux VM
+
+Dotfiles for my Linux VM, Fedora.
