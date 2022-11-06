@@ -18,7 +18,7 @@ Dotfiles for my Linux VM, Fedora.
    ssh-add ~/.ssh/id_ed25519
    ```
 
-2. Clone this repository
+2. Clone this repository.
 
    ```bash
    git clone git@github.com:lwschan/dotfiles-linux.git $HOME/.dotfiles
