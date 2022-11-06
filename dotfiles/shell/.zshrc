@@ -103,3 +103,6 @@ export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 # For jenv
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
+
+# For tfenv
+export PATH="$HOME/.tfenv/bin:$PATH"

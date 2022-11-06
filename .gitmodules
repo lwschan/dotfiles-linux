@@ -13,3 +13,6 @@
 [submodule "utilities/jenv"]
 	path = utilities/jenv
 	url = git@github.com:jenv/jenv.git
+[submodule "utilities/tfenv"]
+	path = utilities/tfenv
+	url = git@github.com:tfutils/tfenv.git

@@ -22,3 +22,7 @@ stow --verbose --target=$HOME/.oh-my-zsh/custom/plugins --dir=zsh-plugins .
 mkdir $HOME/.jenv
 stow --verbose --target=$HOME/.jenv --dir=utilities jenv
 jenv enable-plugin export
+
+# Stow tfenv
+mkdir $HOME/.tfenv
+stow --verbose --target=$HOME/.tfenv --dir=utilities tfenv
