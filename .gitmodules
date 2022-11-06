@@ -1,7 +1,7 @@
-[submodule "submodules/geometry"]
+[submodule "zsh-themes/geometry"]
 	path = zsh-themes/geometry
 	url = git@github.com:geometry-zsh/geometry.git
-[submodule "submodules/typewritten"]
+[submodule "zsh-themes/typewritten"]
 	path = zsh-themes/typewritten
 	url = git@github.com:reobin/typewritten.git
 [submodule "zsh-plugins/zsh-autosuggestions"]

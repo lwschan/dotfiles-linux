@@ -1,4 +1,4 @@
 #!/bin/bash
 
 sudo dnf update
-sudo dnf install stow
+sudo dnf -y install stow
