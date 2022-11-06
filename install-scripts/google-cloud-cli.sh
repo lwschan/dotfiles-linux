@@ -11,3 +11,7 @@ gpgkey=https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 EOM
 
 sudo dnf -y install google-cloud-cli
+
+sudo dnf -y install google-cloud-cli-gke-gcloud-auth-plugin
+
+gcloud init
