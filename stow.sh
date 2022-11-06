@@ -25,4 +25,5 @@ jenv enable-plugin export
 
 # Stow tfenv
 mkdir $HOME/.tfenv
+echo 'trust-tfenv: yes' > utilities/tfenv/use-gpgv
 stow --verbose --target=$HOME/.tfenv --dir=utilities tfenv
