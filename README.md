@@ -24,37 +24,39 @@ Dotfiles for my Linux VM, Fedora.
    git clone git@github.com:lwschan/dotfiles-linux.git $HOME/.dotfiles
    ```
 
-3. Initialize the submodules for the repository.
+3. Update `./dotfiles/git/.gitconfig` and `./dotfiles/ssh/allowed_signers` with the new SSH key.
+
+4. Initialize the submodules for the repository.
 
    ```bash
    git submodule update --init --recursive
    ```
 
-4. Make git ignore executable file changes.
+5. Make git ignore executable file changes.
 
    ```bash
    git config core.filemode false
    ```
 
-5. Make all scripts executable.
+6. Make all scripts executable.
 
    ```bash
    chmod +x **/*.sh
    ```
 
-6. Execute the `start.sh` script.
+7. Execute the `start.sh` script.
 
    ```bash
    ./start.sh
    ```
 
-7. Execute the `install.sh` script.
+8. Execute the `install.sh` script.
 
    ```bash
    ./install.sh
    ```
 
-8. Execute the `stow.sh` script.
+9. Execute the `stow.sh` script.
 
    ```bash
    ./stow.sh
