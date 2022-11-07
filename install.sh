@@ -6,6 +6,8 @@
 
 ./install-scripts/dev.sh
 
+./install-scripts/dotnet.sh
+
 ./install-scripts/node.sh
 
 ./install-scripts/docker.sh
