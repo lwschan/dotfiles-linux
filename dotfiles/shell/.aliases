@@ -10,3 +10,9 @@ alias deletebranch='git fetch --prune && git branch -r | awk "{print \$1}" | egr
 
 # Docker aliases
 alias startdocker="sudo systemctl start docker"
+
+# Runs previous command in sudo
+alias please='sudo $(fc -ln -1)'
+
+# For VSCode fractional scaling fix
+alias code='code --ozone-platform=wayland'
