@@ -1,9 +1,15 @@
 #!/bin/bash
 
+# Steps from https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
-# Install kubectl
-curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
-sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+# This overwrites any existing configuration in /etc/yum.repos.d/kubernetes.repo
+cat <<EOF | sudo tee /etc/yum.repos.d/kubernetes.repo
+[kubernetes]
+name=Kubernetes
+baseurl=https://pkgs.k8s.io/core:/stable:/v1.31/rpm/
+enabled=1
+gpgcheck=1
+gpgkey=https://pkgs.k8s.io/core:/stable:/v1.31/rpm/repodata/repomd.xml.key
+EOF
 
-# Install helm
-sudo dnf -y install helm
+sudo dnf install -y kubectl

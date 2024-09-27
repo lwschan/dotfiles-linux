@@ -1,7 +1,7 @@
 [user]
 	name = Lewis Chan
 	email = 8966669+lwschan@users.noreply.github.com
-	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDesK/7/2yijvUNFQUyQeLCTMbQk7VIDpFVwrD503+wr
+	signingkey = ~/.ssh/id_ed25519_github.pub
 [alias]
 	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
 [gpg "ssh"]

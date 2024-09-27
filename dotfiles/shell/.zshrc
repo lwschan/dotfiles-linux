@@ -70,7 +70,7 @@ ZSH_THEME="geometry/geometry"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git nvm node dnf npm zsh-autosuggestions zsh-syntax-highlighting safe-paste)
+plugins=(git nvm node dnf npm zsh-autosuggestions zsh-syntax-highlighting safe-paste jenv)
 
 source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases
@@ -96,9 +96,6 @@ export EDITOR='vim'
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-# For GKE https://cloud.google.com/blog/products/containers-kubernetes/kubectl-auth-changes-in-gke
-export USE_GKE_GCLOUD_AUTH_PLUGIN=True
 
 # For jenv
 export PATH="$HOME/.jenv/bin:$PATH"
