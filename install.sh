@@ -15,3 +15,5 @@
 ./install-scripts/node.sh
 
 ./install-scripts/fonts.sh
+
+./install-scripts/spotify.sh

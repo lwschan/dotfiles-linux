@@ -4,7 +4,7 @@
 rm $HOME/.gitconfig $HOME/.zshrc
 
 # Stow ssh files
-stow --verbose --target=$HOME/ssh --dir=dotfiles/.ssh .
+stow --verbose --target=$HOME/.ssh --dir=dotfiles/ssh .
 
 # Stow git files
 stow --verbose --target=$HOME --dir=dotfiles/git .
